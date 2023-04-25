@@ -42,7 +42,7 @@ spec:
               # be run in the toolbox pod. The output of the commands can be seen by getting the pod log.
               #
               # example: print the ceph status
-              ceph status
+              ceph health detail
       volumes:
         - name: ceph-admin-secret
           secret:
